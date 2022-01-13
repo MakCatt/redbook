@@ -1,0 +1,254 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway';
+    color: white;
+    font-size: 15px;
+    background-color: black;
+    letter-spacing: 0.05em;
+
+}
+h1 h2 h3 h4 h5 h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+ul li {
+    display: block;
+}
+.container {
+
+    width: 1110px;
+    margin: 0 auto;
+
+}
+.svgg{
+    position: static;
+    width: 37px;
+    height: 37px;
+    left: 0px;
+    top: 0px;
+
+
+
+/* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 7px;
+}
+.logo{
+    height 37px;
+    width: 37px;
+
+}
+header a {
+    color: white;
+}
+.menu{
+    display: flex;
+    margin-left: auto;
+}
+.menu li a {
+
+    text-decoration: none;
+
+}
+
+.menu li {
+    margin: 0 50px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 71px;
+}
+.mainpart {
+    width: 652px;
+    height: 671px;
+}
+
+.bigtext {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 6px;
+}
+.normtext {
+    width: 445px;
+    margin-bottom: 52px;
+}
+.btncon {
+    margin-left: 0;
+
+    align-items: center;
+
+}
+.fbtn {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: 19px 25px;
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.3s;
+
+
+
+}
+.fbtn:hover {
+
+   background: rgb(53, 167, 110);
+
+}
+.fbtn:active{
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+}
+.secondpart {
+
+    margin-left: 380px;
+    margin-top: -22px;
+
+}
+.secbigtext {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 6px;
+}
+.secnormtext {
+    width: 272px;
+
+}
+.secbtncon {
+    margin-top: 45px;
+}
+.secbtn {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: 19px 40px;
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.3s;
+
+}
+.secbtn:hover {
+
+    background: rgb(53, 167, 110);
+
+}
+.secbtn:active{
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+}
+.thirdpart {
+    margin-top: -25px;
+
+}
+.thbigtext {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.thnormtext {
+    width: 295px;
+    margin-bottom: 15px;
+}
+.form{
+    width: 20em;
+    position: relative;
+    height: 2em;
+
+}
+.form__input{
+    position: absolute;
+    top 0;
+    left 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #808080;
+    border-radius: 0.2rem;
+    font-family: inherit;
+    font-size: inherit;
+    color: white;
+    outline: none;
+    background: none;
+    padding: 0.5rem;
+
+
+}
+.form__input:hover{
+    border-color: #bcbcbc
+}
+.form__input:focus {
+    border-color: #bcbcbc;
+}
+.form__label{
+    position: absolute;
+
+    left: 1rem;
+    top: 1rem;
+    padding:0 0.5rem;
+    cursor: text;
+    color: #808080;
+    transition: top 200ms ease-in,
+        left 200ms ease-in;
+    background-color: black;
+    font-weight: bold;
+}
+.form__input:focus ~ .form__label,
+.form__input:not(:placeholder-shown).form__input:not(:focus) ~ .form__label{
+    top: -0.2rem;
+    font-size: 0.6rem;
+    left: 0.5rem;
+
+}
+
+.thbtncon {
+    margin-top: 65px;
+}
+.thbtn {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: 19px 50px;
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.3s;
+
+}
+.thbtn:hover {
+
+    background: rgb(53, 167, 110);
+
+}
+.thbtn:active{
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
